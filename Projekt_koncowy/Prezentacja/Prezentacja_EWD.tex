@@ -1,0 +1,75 @@
+\documentclass{beamer}
+\usetheme{Warsaw}
+\usecolortheme{beaver}
+\usepackage{polski}
+
+\usepackage{multimedia}
+\usepackage{media9}
+
+\title{Prezentacja do Projektu}
+\subtitle{Eksploracja i wizualizacja danych}
+\author{Michał Brodacki, s32038}
+\institute{Polsko--Japońska Akademia Technik Komputerowych}
+\date{11 Grudnia 2023}
+
+\begin{document}
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	\begin{frame}{Spis Treści}
+		\tableofcontents % Slajd ze spisem treści
+	\end{frame}
+	
+	\section{Cel i Dane}
+	\subsection{Cel}
+	\begin{frame}
+		\begin{block}{Cel Projektu}
+		Celem projektu jest rozpoznanie na podstawie danych pozycyjnych koszykarza oddającego rzut, czy będzie on liczony jako $3$--punktowy, czy jako $2$--punktowy.
+		\end{block}
+
+	\end{frame}
+	\subsection{Dane}
+\begin{frame}
+	\frametitle{Dane}
+Do projektu wykorzystam dane NBA 2023 Player Shot Dataset dostępne pod linkiem: 
+\textit{\url{https://www.kaggle.com/datasets/dhavalrupapara/nba-2023-player-shot-dataset/?select=2_james_harden_shot_chart_2023.csv}}. Zawierają one informacje na temat sytuacji rzutowych trzech koszykarzy grających w \textbf{NBA}.
+\end{frame}
+
+	\subsection{Wstępna ocena danych}
+\begin{frame}
+	\frametitle{Wstępna ocena danych}
+	Tu napisać coś o danych (których kolumn używamy i czy może się powieść) i dać kawałek tabelki
+	
+\end{frame}
+\subsection{Przygotowanie Danych}
+	\begin{frame}
+		\frametitle{Przygotowanie Danych}
+		Tu sprawdzić czy nie ma brakujących wartości i kodowanie
+		
+	\end{frame}
+	\section{Model}
+	\subsection{Modelowanie}
+	\begin{frame}
+		\frametitle{Modelowanie}
+		Przetestować różne modele (KNN, lasy, bootsrap), na różnych wielkościach zbioru uczącego.
+		
+	\end{frame}
+	\subsection{Ewaluacja}
+\begin{frame}
+	\frametitle{Ewaluacja}
+	Porównanie modeli (podejrzewam, że KNN wypadnie lepiej niż lasy)
+	
+\end{frame}
+
+	\section{Wdrożenie}
+		\begin{frame}
+			\frametitle{Wdrożenie -- Wnioski}
+			Wnioski z eksploracji (tego jeszcze nie wiem :)
+			
+				\vspace{0.5cm}
+			
+			\centering\Large{Dziękuję za uwagę!}
+			
+		\end{frame}
+		
+\end{document}
